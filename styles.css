@@ -2,7 +2,8 @@ body {
     font-family: sans-serif;
     background-color: rgb(181, 103, 39);
     /* колір фону */
-    text-decoration:none;
+    text-decoration:none !important;
+
 }
 h1,p{
     color:white;

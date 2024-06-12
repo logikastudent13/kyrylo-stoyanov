@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(181, 103, 39);
+    /* колір фону */
+}
+h1,p{
+    color:white;
+}
+h1{
+    text-align: center;
+}
+.country_img{
+    width: 300px;
+    transition: 0.3s;
+    height: 200px;
+    /* висота */
+}
+.country_img:hover{
+    border-radius: 20px;
+    /* закруглення меж */
+}
+.country div{
+    display: flex;
+    gap: 30px;
+}
+.country div p{
+    color: white;
+    font-size: 20px;
+}
+header h1{
+    color:white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 166, 68);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: rgb(228, 223, 223);
+}
+
+.states{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.states article{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.states article img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    transition: 0.3s;
+}
+
+.states article:hover img{
+    border-radius: 0;
+}
+.states span{
+    transition: 0.3s;
+}
+.states article:hover span{
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+}
+
+footer{
+    padding: 20px;
+    border-top:1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
